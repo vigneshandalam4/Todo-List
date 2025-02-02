@@ -1,0 +1,61 @@
+
+body {
+    background-color: black;
+    color: white;
+    
+    margin-top: 40px;
+}
+
+#div1{
+    margin: auto;
+    text-align: center;
+    background-color: #121212;
+    opacity: 0.9;
+    width: 600px;
+}
+
+input { 
+    width: 400px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+#div2{
+    padding: 1px;
+    width: 600px;
+    min-height: 25rem;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #121212;
+    opacity: 0.9;
+}
+
+ul{
+    
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+}
+
+li button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
